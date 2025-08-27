@@ -22,4 +22,4 @@ jobs:
 
     - name: Sync files to S3
       run: |
-        aws s3 sync build/ s3://bucket-2025-s3-iam-check --delete
+        aws s3 sync . s3://bucket-2025-s3-iam-check --delete
